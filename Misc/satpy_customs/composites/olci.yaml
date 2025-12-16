@@ -1,0 +1,27 @@
+sensor_name: visir/olci
+modifiers:
+  rayleigh_corrected:
+    modifier: !!python/name:satpy.modifiers.PSPRayleighReflectance
+    atmosphere: us-standard
+    aerosol_type: rayleigh_only
+    prerequisites:
+    - name: 'Oa08'
+      modifiers: [sunz_corrected]
+    optional_prerequisites:
+    - satellite_azimuth_angle
+    - satellite_zenith_angle
+    - solar_azimuth_angle
+    - solar_zenith_angle
+
+
+composites:
+    highlight_optimised_true_color:
+      compositor:  !!python/name:highlight_optimised_true_color.HighlightOptimisedTrueColor
+      prerequisites:
+      - name: 'Oa08'
+        modifiers: [effective_solar_pathlength_corrected, rayleigh_corrected]
+      - name: 'Oa06'
+        modifiers: [effective_solar_pathlength_corrected, rayleigh_corrected]
+      - name: 'Oa03'
+        modifiers: [effective_solar_pathlength_corrected, rayleigh_corrected]
+      standard_name: highlight_optimised_true_color

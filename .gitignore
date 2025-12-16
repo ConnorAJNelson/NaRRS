@@ -1,9 +1,6 @@
 __pycache__
 
 Data/S3A_OL_1_EFR____20190409T220940_20190409T221240_20240531T201722_0179_043_229_1620_MAR_R_NT_004.SEN3
-Data/S3A_SR_2_LAN_SI_20190409T220052_20190409T221734_20230529T124528_1001_043_229______LN3_R_NT_005.SEN3
-Data/pysiral-l1p-sentinel3a-l2_lan_si-rep-north-20190409T220134-20190409T221733-waveform_features.nc
-Data/sentinel3_oib_xo_unified.nc
 Data/sentinel3_oib_xo_unified.nc
 Data/sentinel3_sral_products_20160921_20230430.parquet
 Data/IceBird
@@ -21,7 +18,6 @@ Data/S3_icebird_overlap_counts_v2.csv
 Data/S3_NaRRS_snow_depth_sit_monthly_stats_nh_2021-2022_by_region_and_type.csv
 
 Misc/sentinel3_sral_products_20160921_20230430.parquet
-Misc/satpy_customs
 
 MWR_Preprocessing/ATMCorrectionScale.py
 MWR_Preprocessing/AtmosCorrectionSupplement.ipynb
@@ -44,7 +40,6 @@ tools/SeaIceAdvection.py
 Misc/rttov_nh_failed_products.txt
 
 Manuscript_Main_Figures/PaperFig1.ipynb
-Manuscript_Main_Figures/PaperFig1c.ipynb
 Manuscript_Main_Figures/S3_mwr_gr_and_sral_features_example.png
 Manuscript_Main_Figures/PaperFig1d.ipynb
 Manuscript_Main_Figures/S3_OIB_unified_OIB_snow_depth.png
@@ -65,3 +60,6 @@ BGEP_Comparison/S3_BGEP_ULS.ipynb
 Model_Deployment/MonthlyS3SnowCiceThickness.py
 Model_Deployment/S3MonthlySpatialAnalysis.py
 Model_Deployment/sentinel3_snow_model_deployment.py
+
+Misc/satpy_customs/.DS_Store
+Misc/satpy_customs/composites/__pycache__
