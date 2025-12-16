@@ -1,7 +1,6 @@
 __pycache__
 
 Data/S3A_OL_1_EFR____20190409T220940_20190409T221240_20240531T201722_0179_043_229_1620_MAR_R_NT_004.SEN3
-Data/sentinel3_oib_xo_unified.nc
 Data/sentinel3_sral_products_20160921_20230430.parquet
 Data/IceBird
 Data/cv_fold_results
@@ -40,9 +39,6 @@ tools/SeaIceAdvection.py
 Misc/rttov_nh_failed_products.txt
 
 Manuscript_Main_Figures/PaperFig1.ipynb
-Manuscript_Main_Figures/S3_mwr_gr_and_sral_features_example.png
-Manuscript_Main_Figures/PaperFig1d.ipynb
-Manuscript_Main_Figures/S3_OIB_unified_OIB_snow_depth.png
 Manuscript_Main_Figures/PaperFig2.ipynb
 Manuscript_Main_Figures/s3_monthly_gridded_snow_depth_sea_ice_thickness_2021_with_daily_scatter_and_olci.png
 Manuscript_Main_Figures/PaperFig3.ipynb
