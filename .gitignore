@@ -6,6 +6,8 @@ Data/PARARCMIP2017
 Data/S3A_OL_1_EFR____20220414T212458_20220414T212758_20240605T031041_0179_084_143_1620_MAR_R_NT_004.SEN3
 Data/Surface_masks
 Data/S3_icebird_overlap_counts_v2.csv
+Data/combined_awi_narrs_sit_snow_depth.nc
+Data/combined_bremen_narrs_snow_depth.nc
 
 MWR_Preprocessing/ATMCorrectionScale.py
 MWR_Preprocessing/AtmosCorrectionSupplement.ipynb
@@ -20,12 +22,11 @@ SRAL_Preprocessing/WaveformFeatures.ipynb
 
 test
 
-tools/auxiliary_dl.py
-tools/common_functions.py
-tools/S3_SITHEM_DL.py
-tools/SeaIceAdvection.py
-
-Misc/rttov_nh_failed_products.txt
+Utility/auxiliary_dl.py
+Utility/common_functions.py
+Utility/S3_SITHEM_DL.py
+Utility/directory_paths.py
+Utility/satpy_customs/.DS_Store
 
 Manuscript_Main_Figures/PaperFig1.ipynb
 
@@ -42,3 +43,11 @@ Model_Deployment/sentinel3_snow_model_deployment.py
 
 Misc/satpy_customs/.DS_Store
 Misc/satpy_customs/composites/__pycache__
+Manuscript_Main_Figures/Narrs_monthly_gridded_snow_depth_sea_ice_thickness_2021_2022_with_daily_scatter_and_olci.png
+Manuscript_Main_Figures/s3_monthly_gridded_snow_depth_sea_ice_thickness_2021_2022_with_daily_scatter_and_olci.png
+Manuscript_Main_Figures/s3_snow_depth_and_sea_ice_thickness_multisource_evaluation_v2.png
+Manuscript_Main_Figures/s3_snow_depth_and_sea_ice_thickness_multisource_evaluation.png
+Manuscript_Main_Figures/s3_snow_depth_and_sea_ice_thickness_multisource_evaluation.png
+Manuscript_Main_Figures/s3_snow_depth_and_sea_ice_thickness_multisource_evaluation.png
+
+
