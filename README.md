@@ -2,6 +2,8 @@
 
 Code repository to accompany the manuscript "Snow depth on Arctic sea ice retrieval using a synergy of Sentinel-3's active and passive microwave instruments". The correspondong data product can be found at https://doi.org/10.5281/zenodo.17942492 and https://www.cpom.ucl.ac.uk/narss/.
 
+Repository DOI (v1.0.0-alpha): 10.5281/zenodo.17955873
+
 <img width="1582" height="1087" alt="NaRRS_ql_20220414" src="https://github.com/user-attachments/assets/c6dfa1ae-a825-4de8-acd6-03609735d10d" />
 Fig: Example NaRRS snow depth and sea ice thickness for a single date of along-track Sentinel-3 observations, and shown zoomed-in over a coincident OLCI true color composite. 
 
