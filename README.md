@@ -1,6 +1,6 @@
 ## Sentinel-3 NaRRS: Nadir Radiometer and Radar Synergy for Arctic Snow Depth and Sea Ice Thickness Retrieval ##
 
-Code repository to accompany the manuscript "Snow depth on Arctic sea ice retrieval using a synergy of Sentinel-3's active and passive microwave instruments". The correspondong data product can be found at https://doi.org/10.5281/zenodo.17942492 and https://www.cpom.ucl.ac.uk/narss/.
+Code repository to accompany the manuscript "Snow depth on Arctic sea ice retrieval using a synergy of Sentinel-3's active and passive microwave instruments". The correspondong data product can be found at https://doi.org/10.5281/zenodo.17942492.
 
 Repository DOI (v1.0.0-alpha): 10.5281/zenodo.17955873
 
@@ -23,6 +23,8 @@ Fig: Example NaRRS snow depth and sea ice thickness for a single date of along-t
 * AWI snow buoy snow depths https://data.meereisportal.de/relaunch/buoy.php
 * Beaufort Gyre Exploraiton Project (BGEP) sea ice draft https://www2.whoi.edu/site/beaufortgyre/data/
 * Fram Strait Arctic Outflow Observatory (AOO) sea ice draft  https://data.npolar.no/dataset/5b717274-2d85-4f13-a1b4-ff0517c78b4a
+* AWI sea ice thickness and merged snow depth ftp://ftp.awi.de/sea_ice/product/cryosat2/ (https://zenodo.org/records/10044554)
+* University of Bremen Rostosky et al., (2019) snow depths (https://data.seaice.uni-bremen.de/SnowDepth/) (https://seaice.uni-bremen.de/snow/)
 
 ### Required Software ###
 * RTTOV (for atmospheric correction of brightness temperatures) https://nwp-saf.eumetsat.int/site/software/rttov/download/
