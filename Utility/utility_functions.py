@@ -1085,3 +1085,24 @@ def add_map_cfeatures(ax):
     ax.add_feature(cfeature.COASTLINE)
 
 #========================================================================================================================#
+
+def get_unique_dates_within_interval(central_dates, n_days):
+    """
+    Get unique dates within a specified interval around a list of dates.
+        
+    Parameters:
+    central_dates (list of pd.Timestamp): The list of dates to get the interval around
+    n_days (int): The number of days before and after each date to include in the interval.
+    
+    Returns:
+    np.ndarray: An array of unique dates within the specified interval.
+
+    """
+    
+    
+    all_dates = []
+    for date in central_dates:
+        all_dates += [date + pd.DateOffset(days=i) for i in range(-n_days, n_days+1)]
+    return np.unique(all_dates)
+
+#========================================================================================================================#
