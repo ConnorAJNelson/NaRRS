@@ -15,7 +15,6 @@ MWR_Preprocessing/era5_4_rttov_gc.py
 MWR_Preprocessing/era5_ml2pl_table.csv
 MWR_Preprocessing/era5_var_names.csv
 MWR_Preprocessing/sentinel3_rttov_operation.py
-MWR_Preprocessing/tb_tiepoints.py
 
 SRAL_Preprocessing/pysiral_ku_features.py
 SRAL_Preprocessing/WaveformFeatures.ipynb
